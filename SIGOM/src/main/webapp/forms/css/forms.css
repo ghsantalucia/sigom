@@ -1,0 +1,51 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+.form_container{
+	position: absolute;
+	display: inline-block;
+	width: 500px;
+	margin-left: -250px;
+	left: 50%;
+	box-sizing: border-box;
+	padding: 10px;	
+}
+
+input[type='text'], select, .input-xlarge{
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+input.input-xlarge.dt{
+	width: 80px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+select:focus{
+	outline: none;
+}
+
+.controls{
+	font-size: 20px;
+}
+
+label{
+	font-size: 15px;
+}
+
+@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
+
+
+	.form_container{
+		width: 100%;
+		margin: 0 auto;
+		left: 0;
+	}
+
+}

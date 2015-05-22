@@ -1,5 +1,23 @@
 $(window).on('ready', function(){
 	
+	$('.gps').on('focus', function(){
+
+		var gps = $(this);
+		navigator.geolocation.getCurrentPosition(locationSuccess, locationFail); 
+		
+		function locationSuccess(position) {
+			latitude = position.coords.latitude;
+		    longitude = position.coords.longitude;
+		    $(gps).val(latitude + ", " + longitude);
+		}
+		
+		function locationFail() {
+		    alert("Sua localização não está disponível.");
+		}
+		
+
+	});
+
 	$('.datepick').each(function(){
 
 		$(this).datepicker({
@@ -24,4 +42,3 @@ $(window).on('ready', function(){
 	});
 
 });
-

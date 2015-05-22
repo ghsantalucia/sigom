@@ -123,7 +123,7 @@
         <div class="control-group">
           <label class="control-label" for="coordenadas">Coordenadas</label>
           <div class="controls">
-            <input id="coordenadas" name="coordenadas" type="text" placeholder="" class="input-xlarge">
+            <input id="coordenadas" name="coordenadas" type="text" placeholder="" class="input-xlarge gps">
             
           </div>
         </div>

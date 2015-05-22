@@ -1,6 +1,6 @@
 package model;
 
-public class Pertences {
+public class Pertence {
 
 	private int id;
 	/*

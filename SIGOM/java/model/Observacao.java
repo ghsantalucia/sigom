@@ -1,6 +1,6 @@
 package model;
 
-public class Observacoes {
+public class Observacao {
 
 	private int id;
 	/*

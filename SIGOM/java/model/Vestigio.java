@@ -1,6 +1,6 @@
 package model;
 
-public class Vestigios {
+public class Vestigio {
 
 	private int id;
 	/*

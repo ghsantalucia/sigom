@@ -676,7 +676,7 @@
 							<span class="c33 c10 c0">001</span>
 						</p></td>
 					<td class="c36" style='width:100%;' colspan="1" rowspan="1"><p class="c5">
-							<span class="c29 c0">&lt;observacoes.observacao&gt;</span>
+							<span class="c29 c0">&lt;observacao.observacao&gt;</span>
 						</p></td>
 				</tr>
 			</tbody>
@@ -783,7 +783,7 @@
 		</p>
 		<p class="c2 c38">
 			<span class="c13">5.2.</span><span class="c13 c0">2 </span><span
-				class="c13">&ndash;</span><span>&nbsp;</span><span class="c0">&lt;observacoes.observacao&gt;</span><span>.</span>
+				class="c13">&ndash;</span><span>&nbsp;</span><span class="c0">&lt;observacao.observacao&gt;</span><span>.</span>
 		</p>
 		<p class="c2 c3">
 			<span class="c13"></span>
@@ -804,7 +804,7 @@
 				<tr class="c50">
 					<td class="c40 c79" colspan="2" rowspan="1"><p class="c59 c41">
 							<span class="c10">VEST</span><span class="c10">&Iacute;</span><span
-								class="c10">GIO </span><span class="c10 c0 c33">&lt;vestigios.referencia&gt;</span>
+								class="c10">GIO </span><span class="c10 c0 c33">&lt;vestigio.referencia&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -812,7 +812,7 @@
 							<span class="c8">Quantidade</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c5">
-							<span class="c29 c0">&lt;vestigios.quantidade&gt;</span>
+							<span class="c29 c0">&lt;vestigio.quantidade&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -820,7 +820,7 @@
 							<span class="c8">Tipo de vest&iacute;gio</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c5">
-							<span class="c29 c0">&lt;vestigios.vestigio&gt;</span>
+							<span class="c29 c0">&lt;vestigio.vestigio&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -828,7 +828,7 @@
 							<span class="c8">Onde foi encontrado</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c5">
-							<span class="c0 c29">&lt;vestigios.onde_encontrado&gt;</span>
+							<span class="c0 c29">&lt;vestigio.onde_encontrado&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -836,7 +836,7 @@
 							<span class="c8">Realizado no local</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c2 c68">
-							<span class="c29 c0">&lt;vestigios.exame_local&gt;</span>
+							<span class="c29 c0">&lt;vestigio.exame_local&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -844,7 +844,7 @@
 							<span class="c8">Foi coletado</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c5">
-							<span class="c29 c0">&lt;vestigios.coletado&gt;</span>
+							<span class="c29 c0">&lt;vestigio.coletado&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -852,7 +852,7 @@
 							<span class="c8">Para onde foi enviado</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c5">
-							<span class="c29 c0">&lt;vestigios.onde_enviado&gt;</span>
+							<span class="c29 c0">&lt;vestigio.onde_enviado&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -860,7 +860,7 @@
 							<span class="c8">Exames solicitados</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c5">
-							<span class="c29 c0">&lt;vestigios.quais_exames&gt;</span>
+							<span class="c29 c0">&lt;vestigio.quais_exames&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -868,7 +868,7 @@
 							<span class="c8">Observa&ccedil;&otilde;es</span>
 						</p></td>
 					<td class="c11" colspan="1" rowspan="1"><p class="c2 c68">
-							<span class="c29 c0">&lt;vestigios.observacao&gt;</span>
+							<span class="c29 c0">&lt;vestigio.observacao&gt;</span>
 						</p></td>
 				</tr>
 			</tbody>
@@ -914,7 +914,7 @@
 		</p>
 		<p class="c51 c41">
 			<span class="c13">6.</span><span class="c13 c0">1 </span><span
-				class="c13">-</span><span>&nbsp;</span><span class="c0">&lt;observacoes.observacao&gt;</span><span>.</span>
+				class="c13">-</span><span>&nbsp;</span><span class="c0">&lt;observacao.observacao&gt;</span><span>.</span>
 		</p>
 		<p class="c51 c3 c41">
 			<span></span>

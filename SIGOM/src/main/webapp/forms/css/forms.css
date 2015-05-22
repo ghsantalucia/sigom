@@ -36,16 +36,54 @@ select:focus{
 }
 
 label{
-	font-size: 15px;
+	font-size: 17px;
 }
 
+.form-horizontal .control-label{
+	width: 200px;
+	padding-right: 20px;
+}
+
+textarea{
+	min-width: 270px;
+	box-sizing: border-box;
+	min-height: 110px;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+fieldset{
+	width: 600px;
+
+}
+
+
+
+@media screen and (max-device-width: 770px), screen and (max-width: 770px) {
+
+	textarea{
+		width: 300px;
+	}
+
+}
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
 
+	textarea{
+		width: 100%;
+	}
 
 	.form_container{
 		width: 100%;
 		margin: 0 auto;
 		left: 0;
+	}
+
+	label{
+		font-size: 19px;
+	}
+
+	legend{
+		font-size: 25px;
 	}
 
 }

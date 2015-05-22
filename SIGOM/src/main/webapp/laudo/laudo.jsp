@@ -1,5 +1,3 @@
-<%@page import="model"%>
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -12,6 +10,11 @@
 	
 	<link href="css/laudo.css" rel="stylesheet">
 	
+ 	<!-- jQUERY --> 
+    <script src="../forms/js/jquery/jquery-1.10.2.js"></script>
+    <script src="../forms/js/jquery/jquery-ui.js"></script>
+   
+
 </head>
 <body>
 	<div class="c57 c83">
@@ -588,7 +591,7 @@
 							<span class="c8">Tipo de pertence</span>
 						</p></td>
 					<td class="c37" colspan="1" rowspan="1"><p class="c5">
-							<span class="c6 c0">&lt;pertences.tipo&gt;</span>
+							<span class="c6 c0">&lt;pertence.tipo&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -596,7 +599,7 @@
 							<span class="c8">Qual pertence</span>
 						</p></td>
 					<td class="c37" colspan="1" rowspan="1"><p class="c5">
-							<span class="c6 c0">&lt;pertences.nome&gt;</span>
+							<span class="c6 c0">&lt;pertence.nome&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -604,7 +607,7 @@
 							<span class="c8">Onde foi encontrado</span>
 						</p></td>
 					<td class="c37" colspan="1" rowspan="1"><p class="c5">
-							<span class="c6 c0">&lt;pertences.onde_encontrado&gt;</span>
+							<span class="c6 c0">&lt;pertence.onde_encontrado&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -612,7 +615,7 @@
 							<span class="c8">Para quem foi entregue</span>
 						</p></td>
 					<td class="c37" colspan="1" rowspan="1"><p class="c5">
-							<span class="c6 c0">&lt;pertences.onde_enviado&gt;</span>
+							<span class="c6 c0">&lt;pertence.onde_enviado&gt;</span>
 						</p></td>
 				</tr>
 				<tr class="c27">
@@ -620,7 +623,7 @@
 							<span class="c8">Observa&ccedil;&otilde;es</span>
 						</p></td>
 					<td class="c37" colspan="1" rowspan="1"><p class="c5">
-							<span class="c6 c0">&lt;pertences.observacao&gt;</span>
+							<span class="c6 c0">&lt;pertence.observacao&gt;</span>
 						</p></td>
 				</tr>
 			</tbody>
@@ -669,10 +672,10 @@
 		<table cellpadding="0" cellspacing="0" class="c24">
 			<tbody>
 				<tr class="c27">
-					<td class="c36" colspan="1" rowspan="1"><p class="c5">
+					<td class="c36" style="width:auto;" colspan="1" rowspan="1"><p class="c5">
 							<span class="c33 c10 c0">001</span>
 						</p></td>
-					<td class="c36" colspan="1" rowspan="1"><p class="c5">
+					<td class="c36" style='width:100%;' colspan="1" rowspan="1"><p class="c5">
 							<span class="c29 c0">&lt;observacoes.observacao&gt;</span>
 						</p></td>
 				</tr>

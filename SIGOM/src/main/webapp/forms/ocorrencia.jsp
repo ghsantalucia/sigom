@@ -11,16 +11,16 @@
     
     <!-- TITULO -->
     <title>Ocorrência</title>
-    
 
     <!-- FAVICON -->
-    <link rel="icon" href="" type="image/x-icon" />
-    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="icon" href="../default/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../default/icon.png" type="image/x-icon" />
     
     <!-- BOOTSTRAP -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/bootstrap/custom.css" rel="stylesheet">
+    <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- jQUERY --> 
     <link rel="stylesheet" href="css/jquery/jquery-ui.css">
@@ -43,7 +43,24 @@
         <!-- Form Name -->
         <legend>Ocorrência</legend>
 
-        
+        <!-- MENU SUPERIOR -->      
+        <center>
+        <div class="btn-group buttons_top" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Início
+          </button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Voltar
+          </button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Novo
+          </button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Próximo
+          </button>
+        </div>
+        </center>
+
         <!-- Text input-->
         <div class="control-group">
           <label class="control-label" for="cpeccv">cpeccv</label>
@@ -230,7 +247,16 @@
           </div>
         </div>
 
-        <input type='submit' value='Próximo formulário'/>
+        <!-- BOTOES -->
+        <div class='buttons_end'>
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Início
+          </button>
+          &nbsp;&nbsp;&nbsp;
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span> Próximo
+          </button>
+        </div>
 
         </fieldset>
       </form>

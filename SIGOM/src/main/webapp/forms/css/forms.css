@@ -37,6 +37,7 @@ select:focus{
 
 label{
 	font-size: 17px;
+	font-weight: normal;
 }
 
 .form-horizontal .control-label{
@@ -54,8 +55,44 @@ textarea{
 
 fieldset{
 	width: 600px;
-
 }
+
+.buttons_end{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.buttons_top{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.btn:focus, .btn, .btn-default:active, .btn-group{
+	outline: none;
+}
+
+.btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover{
+	font-size: 17px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.form-horizontal .controls{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -65,10 +102,34 @@ fieldset{
 		width: 300px;
 	}
 
+	fieldset, .form_container{
+		width: 100%;
+	}
+
+	input[type='text'], textarea, select, .input-xlarge{
+		width: calc(100% - 200px);
+	}
+
+	.form_container{
+		margin-left: 0;
+		left: 0;
+	}
+
+	.btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
+
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
 
-	textarea{
+	.btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover{
+		font-size: 14px;
+		padding-left: auto;
+		padding-right: auto;
+	}
+
+	textarea, input[type='text'], select, .input-xlarge{
 		width: 100%;
 	}
 
@@ -86,4 +147,12 @@ fieldset{
 		font-size: 25px;
 	}
 
+	fieldset{
+		width: 100%;
+	}
+
+	.form-horizontal .control-label{
+		width: 100%;
+		padding-right: auto;
+	}
 }

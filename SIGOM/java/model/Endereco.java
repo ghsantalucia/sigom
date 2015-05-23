@@ -3,17 +3,75 @@ package model;
 public class Endereco {
 
 	private int id;
-	/*
-		Ocorrencia (int)
-		tipo_local (string)
-		rua (string)
-		complemento (string)
-		bairro (string)
-		cidade (string)
-		estado (string)
-		coordenadas (string)
-		condicoes_tempo (text)
-		observacao (text)
-		ENDERECO (Ocorrencia) REFERENCES OCORRENCIA (ID)
-	 */
+	private int ocorrencia;
+	private String rua;
+	private String complemento;
+	private String bairro;
+	private String cidade;
+	private String estado;
+	private String coordenadas;
+	private String condicoes_tempo;
+	private String observacao;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getOcorrencia() {
+		return ocorrencia;
+	}
+	public void setOcorrencia(int ocorrencia) {
+		this.ocorrencia = ocorrencia;
+	}
+	public String getRua() {
+		return rua;
+	}
+	public void setRua(String rua) {
+		this.rua = rua;
+	}
+	public String getComplemento() {
+		return complemento;
+	}
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+	public String getBairro() {
+		return bairro;
+	}
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
+	}
+	public String getCidade() {
+		return cidade;
+	}
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+	public String getEstado() {
+		return estado;
+	}
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+	public String getCoordenadas() {
+		return coordenadas;
+	}
+	public void setCoordenadas(String coordenadas) {
+		this.coordenadas = coordenadas;
+	}
+	public String getCondicoes_tempo() {
+		return condicoes_tempo;
+	}
+	public void setCondicoes_tempo(String condicoes_tempo) {
+		this.condicoes_tempo = condicoes_tempo;
+	}
+	public String getObservacao() {
+		return observacao;
+	}
+	public void setObservacao(String observacao) {
+		this.observacao = observacao;
+	}
+	
 }

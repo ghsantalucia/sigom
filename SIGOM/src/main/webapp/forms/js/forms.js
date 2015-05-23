@@ -1,14 +1,18 @@
 $(window).on('ready', function(){
 	
+	$('[data-toggle="popover"]').popover(); 
+
 	$('.gps').on('focus', function(){
 
 		var gps = $(this);
 		navigator.geolocation.getCurrentPosition(locationSuccess, locationFail); 
 		
 		function locationSuccess(position) {
-			latitude = position.coords.latitude;
-		    longitude = position.coords.longitude;
-		    $(gps).val(latitude + ", " + longitude);
+			latitude = (position.coords.latitude).toString();
+			longitude = (position.coords.longitude).toString();
+			latitude = (latitude.length > 10) ? latitude.slice(0,10) : latitude;
+			longitude = (longitude.length > 10) ? longitude.slice(0,10) : longitude;
+			$(gps).val(latitude + ", " + longitude);
 		}
 		
 		function locationFail() {

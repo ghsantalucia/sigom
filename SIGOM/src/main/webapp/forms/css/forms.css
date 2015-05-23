@@ -135,6 +135,10 @@ legend{
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	.radio{
+		text-align: left;
+	}
 }
 
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
@@ -143,6 +147,13 @@ legend{
 		font-size: 14px;
 		padding-left: auto;
 		padding-right: auto;
+	}
+
+	.controls.radio_controls, .radio{
+		margin-left: 0px;
+		text-align: left;
+		left: 0;
+		font-size: 17px;
 	}
 
 	.radio, textarea, input[type='text'], select, .input-xlarge{

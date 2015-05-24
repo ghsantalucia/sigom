@@ -1,4 +1,4 @@
-package model;
+package br.com.sigom.model;
 
 public class Pessoa extends Formulario {
 	

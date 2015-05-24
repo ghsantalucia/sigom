@@ -1,6 +1,7 @@
-<%@ page import="java.io.*,java.util.*" %>
+<%@page import="java.io.*,java.util.*,src.model.*"%>
 
 <%
+
 	
 	// COLETA VARIAVEIS POR GET
 		String dependencia = "";
@@ -25,7 +26,13 @@
 
 
 	// CRIA NOVA INSTANCIA DO FORMULARIO
-		//id_novo = ;
+		
+		FormFactory formFactory = new FormFactory();
+		Formulario form = formFactory.getForm(formulario);
+		form.setId(1337);
+
+		id_novo = form.getId();
+		
 
 
 

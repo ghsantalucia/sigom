@@ -1,8 +1,7 @@
 package model;
 
-public class Pertence {
+public class Pertence extends Formulario {
 
-	private int id;
 	private int vitima;
 	private String tipo;
 	private String nome;
@@ -10,12 +9,7 @@ public class Pertence {
 	private String onde_enviado;
 	private String observacao;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getVitima() {
 		return vitima;
 	}

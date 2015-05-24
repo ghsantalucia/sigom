@@ -1,6 +1,6 @@
 package model;
 
-public class Lesao {
+public class Lesao extends Formulario {
 	
 	private int vitima;
 	private int dia_lesoes;
@@ -13,13 +13,7 @@ public class Lesao {
 	private String arma_usada;
 	private String observacao;
 	
-	private int id;
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getVitima() {
 		return vitima;
 	}

@@ -1,18 +1,12 @@
 package model;
 
-public class Observacao {
+public class Observacao extends Formulario {
 
-	private int id;
 	private int ocorrencia;
 	private String tipo;
 	private String observacao;
 
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getOcorrencia() {
 		return ocorrencia;
 	}

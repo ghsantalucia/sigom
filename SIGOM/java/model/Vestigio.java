@@ -1,8 +1,7 @@
 package model;
 
-public class Vestigio {
+public class Vestigio extends Formulario {
 
-	private int id;
 	private int ocorrencia;
 	private String referencia;
 	private int quantidade;
@@ -14,12 +13,7 @@ public class Vestigio {
 	private String quais_exames;
 	private String observacao;
 
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getOcorrencia() {
 		return ocorrencia;
 	}

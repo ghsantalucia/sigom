@@ -1,8 +1,7 @@
 package model;
 
-public class Endereco {
+public class Endereco extends Formulario {
 
-	private int id;
 	private int ocorrencia;
 	private String rua;
 	private String complemento;
@@ -13,12 +12,7 @@ public class Endereco {
 	private String condicoes_tempo;
 	private String observacao;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getOcorrencia() {
 		return ocorrencia;
 	}

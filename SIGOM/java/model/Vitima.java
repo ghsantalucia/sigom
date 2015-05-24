@@ -1,8 +1,7 @@
 package model;
 
-public class Vitima {
+public class Vitima extends Formulario {
 	
-	private int id;
 	private int ocorrencia;
 	private String nome;
 	private String tipo;
@@ -24,12 +23,7 @@ public class Vitima {
 	private String posicionamento;
 	private String observacao;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 	public int getOcorrencia() {
 		return ocorrencia;
 	}

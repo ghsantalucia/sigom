@@ -1,8 +1,7 @@
 package model;
 
-public class EquipeSocorro {
+public class EquipeSocorro extends Formulario {
 
-	private int id;
 	private int ocorrencia;
 	private String viatura;
 	private String medico_crm;
@@ -11,12 +10,7 @@ public class EquipeSocorro {
 	private String data_obito;
 	private String observacao;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getOcorrencia() {
 		return ocorrencia;
 	}

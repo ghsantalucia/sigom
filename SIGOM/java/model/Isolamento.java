@@ -1,8 +1,7 @@
 package model;
 
-public class Isolamento {
+public class Isolamento extends Formulario {
 
-	private int id;
 	private int endereco;
 	private String instituicao;
 	private String viatura;
@@ -14,12 +13,7 @@ public class Isolamento {
 	private String observacao_isolamento;
 	private String observacao_geral;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getEndereco() {
 		return endereco;
 	}

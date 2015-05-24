@@ -1,8 +1,7 @@
 package model;
 
-public class Laudo {
+public class Laudo extends Formulario {
 	
-	private int id;
 	private int ocorrencia;
 	private String data_laudo;
 	private int dia_laudo;
@@ -13,12 +12,7 @@ public class Laudo {
 	private int num_fotos;
 	private String conclusao;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getOcorrencia() {
 		return ocorrencia;
 	}

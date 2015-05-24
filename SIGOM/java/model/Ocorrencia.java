@@ -1,8 +1,7 @@
 package model;
 
-public class Ocorrencia {
+public class Ocorrencia extends Formulario {
 
-	private int id;
 	private int cpeccv;
 	private String rg;
 	private String perito;
@@ -26,12 +25,7 @@ public class Ocorrencia {
 	private String equipe_atendente;
 	private String bo_delegacia;	
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public int getCpeccv() {
 		return cpeccv;
 	}

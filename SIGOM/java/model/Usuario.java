@@ -1,8 +1,7 @@
 package model;
 
-public class Usuario {
+public class Usuario extends Formulario {
 	
-	private int id;
 	private String nome;
 	private boolean ativo;
 	private String user;
@@ -11,12 +10,7 @@ public class Usuario {
 	private String tipo;
 	private String cargo;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public String getNome() {
 		return nome;
 	}

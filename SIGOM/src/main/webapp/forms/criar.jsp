@@ -1,3 +1,4 @@
+<%@page language="java" import="java.io.*,java.sql.*,javax.sql.*,javax.naming.*" %>
 <%@page import="java.io.*,java.util.*,src.model.*"%>
 
 <%
@@ -29,8 +30,17 @@
 		
 		FormFactory formFactory = new FormFactory();
 		Formulario form = formFactory.getForm(formulario);
-		form.setId(1337);
+		
+		if(formulario.equals("isolamento")){
+			form.setOcorrencia(ocorrencia);
+			form.setEndereco(id_dependencia);
+		}
 
+
+
+
+
+		form.setId(1337);
 		id_novo = form.getId();
 		
 

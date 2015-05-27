@@ -24,7 +24,7 @@
 			        <center>
 			        <div class="btn-group buttons_top" role="group" aria-label="...">
 
-			          	<button type="button" class="btn btn-default" onclick="window.location.href='edicao.jsp?r=home.jsp'">
+			          	<button type="button" class="btn btn-default" onclick="window.location.href='edicao.jsp?r=/SIGOMweb/home.jsp'">
 			            	<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Início
 			          	</button>
 			          	
@@ -223,7 +223,7 @@
 
 			        <!-- BOTOES -->
 			        <div class='buttons_end'>
-			          <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='edicao.jsp?r=home.jsp'">
+			          <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='edicao.jsp?r=/SIGOMweb/home.jsp'">
 			            <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Início
 			          </button>
 			          &nbsp;&nbsp;&nbsp;

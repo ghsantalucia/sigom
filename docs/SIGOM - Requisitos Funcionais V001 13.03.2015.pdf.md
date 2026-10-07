@@ -2,15 +2,11 @@
 
 ---
 
-INF \- Instituto de Informática Curso: Sistema de Informação Disciplina: Construção de Software
-
-1o semestre/ 2015
-
 **Requisitos funcionais \[Versão 001\. 13.03.2015\]**
 
-Professor: Alessandro Cruvinel
-
-Alunos Daniel Veríssimo Teles de Faria Gabriel Hamada Santalúcia Sílvio Passos Severino
+Daniel Veríssimo Teles de Faria 
+Gabriel Hamada Santalucia 
+Sílvio Passos Severino
 
 Goiânia, 13 de março de 2015\.
 
